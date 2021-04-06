@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeFragment"
+        android:title="home"
+      >
+    </item>
+    <item android:id="@+id/settingFragment"
+        android:title="settings"
+      >
+    </item>
+    <item android:id="@+id/notificationFragment"
+        android:title="notification"
+       >
+    </item>
+
+    <item android:id="@+id/information"
+        android:title="information">
+        <menu>
+            <item android:title="about_app"
+                android:id="@+id/aboutAppFragment">
+            </item>
+
+        </menu>
+    </item>
+
+
+
+</menu>
